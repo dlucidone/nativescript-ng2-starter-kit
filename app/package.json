@@ -1,0 +1,63 @@
+{
+  "private": true,
+  "nativescript": {
+    "id": "org.nativescript.helloworldng"
+  },
+  "name": "tns-template-hello-world-ng",
+  "main": "main.js",
+  "version": "2.6.0",
+  "author": {
+    "name": "Telerik",
+    "email": "support@telerik.com"
+  },
+  "description": "Nativescript Angular Hello World template",
+  "license": "Apache-2.0",
+  "keywords": [
+    "telerik",
+    "mobile",
+    "angular",
+    "nativescript",
+    "{N}",
+    "tns",
+    "appbuilder",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NativeScript/template-hello-world-ng.git"
+  },
+  "homepage": "https://github.com/NativeScript/template-hello-world-ng",
+  "android": {
+    "v8Flags": "--expose_gc"
+  },
+  "dependencies": {
+    "nativescript-theme-core": "~1.0.2",
+    "nativescript-angular": "1.4.0",
+    "@angular/core": "2.4.3",
+    "@angular/common": "2.4.3",
+    "@angular/compiler": "2.4.3",
+    "@angular/http": "2.4.3",
+    "@angular/platform-browser": "2.4.3",
+    "@angular/platform-browser-dynamic": "2.4.3",
+    "@angular/forms": "2.4.3",
+    "@angular/router": "3.4.3",
+    "rxjs": "~5.0.1",
+    "reflect-metadata": "~0.1.8"
+  },
+  "devDependencies": {
+    "zone.js": "~0.7.2",
+    "typescript": "~2.1.0",
+    "nativescript-dev-typescript": "~0.3.5",
+    "nativescript-dev-android-snapshot": "^0.*.*"
+  },
+  "gitHead": "9855f33b854bd32b802d3dbcb0dbfff911b7d3bb",
+  "readme": "# NativeScript Angular 2 Template\n\nThis template creates a \"Hello, world\" NativeScript app using TypeScript and Angular 2.\n\nYou can create a new app that uses this template with either the `--template` option.\n\n```\ntns create my-app-name --template tns-template-hello-world-ng\n```\n\nOr the `--ng` shorthand.\n\n```\ntns create my-app-name --ng\n```\n\n> Note: Both commands will create a new NativeScript app that uses the latest version of this template published to [npm] (https://www.npmjs.com/package/tns-template-hello-world-ts).\n\nIf you want to create a new app that uses the source of the template from the `master` branch, you can execute the following:\n\n```\ntns create my-app-name --template https://github.com/NativeScript/template-hello-world-ng.git#master\n```\n\n**NB:** Please, have in mind that the master branch may refer to dependencies that are not on NPM yet!\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/NativeScript/template-hello-world-ng/issues"
+  },
+  "_id": "tns-template-hello-world-ng@2.6.0",
+  "_shasum": "049203738b6402be24690cdda70db302c8488e2d",
+  "_from": "git+https://github.com/NativeScript/template-hello-world-ng.git",
+  "_resolved": "git+https://github.com/NativeScript/template-hello-world-ng.git#9855f33b854bd32b802d3dbcb0dbfff911b7d3bb"
+}

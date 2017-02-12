@@ -1,0 +1,48 @@
+
+.mainHeading
+{
+text-align: center;
+font-weight: medium;
+font-size: 20;
+color:white;
+}
+
+Button {
+    color: white;
+    border-color: white;
+    border-width: 2;
+    width:28%;
+    height:10%;
+    font-weight: bold
+
+}
+ActionBar
+{
+    color:#0E84CE;
+}
+
+.m-10{
+	margin-left: 12;
+	margin-top: 20;
+}
+.m-8
+{
+	margin-left: 5;
+	margin-top: 20;
+}
+.buttonCustom
+{
+	background-color: white;
+	color:#0E84CE;
+
+}
+
+
+.buttonTwo{
+	color: white;
+    border-color: white;
+    border-width: 2;
+    width:45%;
+    height:10%;
+    font-weight: bold
+}
